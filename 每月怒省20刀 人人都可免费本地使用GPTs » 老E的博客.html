@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/ -->
+<html lang="zh-CN" data-redeviation-bs-uid="o13l6gt8107"><script src="chrome-extension://dlcobpjiigpikoobohmabehhmhfoodbb/inpage.js" id="argent-x-extension" data-extension-id="dlcobpjiigpikoobohmabehhmhfoodbb"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+	  <meta name="impact-site-verification" value="39976442-cf4b-4e62-a05f-7aa9da644e54">
+    <title>每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><meta name="format-detection" content="telphone=no, date=no, address=no, email=no"><meta name="theme-color" content="#282a2c"><meta name="keywords" itemprop="keywords" content="GPT4 Turbo (128k), ChatGPT, DALLE 3, 免费使用, coze,discord bot, chatgptnextweb"><meta name="description" itemprop="description" content="受限于都懂的政策，国内版扣子GPT4、DallE3等欠奉，效果很难令人满意。海外版coze迭代后支持了GPT-4 Turbo 128k，长文本生成、pdf相关应用等理论上都可以支持，但是在可访问性、使用习惯上还需要DIY，好在海外版发布后第一时间就有相应的开源应用诞生、发布。本文就详细介绍先通过Discord coze proxy代理应用创建dicord中的coze机器人，再通过render部署应用转换API，最后通过本地安装NextChat访问coze机器人，免费使用GPT-4和DallE等系列模型的方法和过程。 […]"><meta itemprop="image" content="https://appscross.com/wp-content/uploads/2024/02/cover.jpeg"><meta property="og:site_name" content="老E的博客"><meta property="og:url" content="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/"><meta property="og:title" content="每月怒省20刀 人人都可免费本地使用GPTs"><meta property="og:image" content="https://appscross.com/wp-content/uploads/2024/02/cover.jpeg"><meta property="og:image:type" content="image/webp"><meta property="og:locale" content="zh-CN"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="每月怒省20刀 人人都可免费本地使用GPTs"><meta name="twitter:creator" content="crossapp"><link rel="shortcut icon" href="https://appscross.com/wp-content/uploads/2023/06/fav-1.png"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v22.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="无需VPS、个人专属，通过本地NextChat、render上部署的coze-discord-proxy、discord上的coze托管机器人，调用访问coze免费提供的GPT4 Turbo（128k）、GPT4V、DALLE 3等大语言模型">
+	<link rel="canonical" href="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/">
+	<meta property="og:locale" content="zh_CN">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客">
+	<meta property="og:description" content="无需VPS、个人专属，通过本地NextChat、render上部署的coze-discord-proxy、discord上的coze托管机器人，调用访问coze免费提供的GPT4 Turbo（128k）、GPT4V、DALLE 3等大语言模型">
+	<meta property="og:url" content="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/">
+	<meta property="og:site_name" content="老E的博客">
+	<meta property="article:published_time" content="2024-02-05T14:33:50+00:00">
+	<meta property="article:modified_time" content="2024-02-10T15:05:22+00:00">
+	<meta property="og:image" content="https://appscross.com/wp-content/uploads/2024/02/cover.jpeg">
+	<meta property="og:image:width" content="699">
+	<meta property="og:image:height" content="440">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="author" content="webmaster">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:label1" content="作者">
+	<meta name="twitter:data1" content="webmaster">
+	<meta name="twitter:label2" content="预计阅读时间">
+	<meta name="twitter:data2" content="7分">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#article","isPartOf":{"@id":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/"},"author":{"name":"webmaster","@id":"https://appscross.com/#/schema/person/c77a3cad0687ffa1f0ad73301771f81d"},"headline":"每月怒省20刀 人人都可免费本地使用GPTs","datePublished":"2024-02-05T14:33:50+00:00","dateModified":"2024-02-10T15:05:22+00:00","mainEntityOfPage":{"@id":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/"},"wordCount":366,"commentCount":2,"publisher":{"@id":"https://appscross.com/#/schema/person/4325279feab5f638e66433563fdb09ef"},"image":{"@id":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#primaryimage"},"thumbnailUrl":"https://appscross.com/wp-content/uploads/2024/02/cover.jpeg","keywords":["ChatGPT","coze","discord","GPT4 Turbo","免费本地使用ChatGPT4"],"articleSection":["AI相关","技术应用"],"inLanguage":"zh-CN","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#respond"]}]},{"@type":"WebPage","@id":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/","url":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/","name":"每月怒省20刀 人人都可免费本地使用GPTs &#187; 老E的博客","isPartOf":{"@id":"https://appscross.com/#website"},"primaryImageOfPage":{"@id":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#primaryimage"},"image":{"@id":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#primaryimage"},"thumbnailUrl":"https://appscross.com/wp-content/uploads/2024/02/cover.jpeg","datePublished":"2024-02-05T14:33:50+00:00","dateModified":"2024-02-10T15:05:22+00:00","description":"无需VPS、个人专属，通过本地NextChat、render上部署的coze-discord-proxy、discord上的coze托管机器人，调用访问coze免费提供的GPT4 Turbo（128k）、GPT4V、DALLE 3等大语言模型","breadcrumb":{"@id":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#breadcrumb"},"inLanguage":"zh-CN","potentialAction":[{"@type":"ReadAction","target":["https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/"]}]},{"@type":"ImageObject","inLanguage":"zh-CN","@id":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#primaryimage","url":"https://appscross.com/wp-content/uploads/2024/02/cover.jpeg","contentUrl":"https://appscross.com/wp-content/uploads/2024/02/cover.jpeg","width":699,"height":440},{"@type":"BreadcrumbList","@id":"https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://appscross.com/"},{"@type":"ListItem","position":2,"name":"技术应用","item":"https://appscross.com/category/tech/"},{"@type":"ListItem","position":3,"name":"AI相关","item":"https://appscross.com/category/tech/ai/"},{"@type":"ListItem","position":4,"name":"每月怒省20刀 人人都可免费本地使用GPTs"}]},{"@type":"WebSite","@id":"https://appscross.com/#website","url":"https://appscross.com/","name":"老E的博客","description":"AppsCross | VPS | AIGC | Proxy | TVBox","publisher":{"@id":"https://appscross.com/#/schema/person/4325279feab5f638e66433563fdb09ef"},"alternateName":"老E博客-科技互联网","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://appscross.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"zh-CN"},{"@type":["Person","Organization"],"@id":"https://appscross.com/#/schema/person/4325279feab5f638e66433563fdb09ef","name":"老E","image":{"@type":"ImageObject","inLanguage":"zh-CN","@id":"https://appscross.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/dc3ddaa1c7c2f2b2b78c0fbfffab2425?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/dc3ddaa1c7c2f2b2b78c0fbfffab2425?s=96&d=mm&r=g","caption":"老E"},"logo":{"@id":"https://appscross.com/#/schema/person/image/"}},{"@type":"Person","@id":"https://appscross.com/#/schema/person/c77a3cad0687ffa1f0ad73301771f81d","name":"webmaster","image":{"@type":"ImageObject","inLanguage":"zh-CN","@id":"https://appscross.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/83d21576b24adaec0d24aca3d1525d46?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/83d21576b24adaec0d24aca3d1525d46?s=96&d=mm&r=g","caption":"webmaster"},"sameAs":["https://www.appscross.com"],"url":"https://appscross.com/author/webmaster/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+<link rel="dns-prefetch" href="https://pagead2.googlesyndication.com/">
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="menu-image-css" href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/menu-image.css" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/dashicons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/bootstrap.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="kicon-css" href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/iconfont.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="layer-css" href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/layer.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="lightgallery-css" href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/lightgallery.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="kratos-css" href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/style.css" type="text/css" media="all">
+<style id="kratos-inline-css" type="text/css">
+
+        @media screen and (min-width: 992px) {
+            .k-nav .navbar-brand h1 {
+                color: #ffffff;
+            }
+            .k-nav .navbar-nav > li.nav-item > a {
+                color: #ffffff;
+            }
+        }
+        
+</style>
+<link rel="stylesheet" id="enlighterjs-css" href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/enlighterjs.min.css" type="text/css" media="all">
+<link rel="alternate" type="application/json+oembed" href="https://appscross.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fappscross.com%2F2024%2F02%2Fsave-20-per-month-triple-jump-free-use-of-gpt4turbo%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://appscross.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fappscross.com%2F2024%2F02%2Fsave-20-per-month-triple-jump-free-use-of-gpt4turbo%2F&amp;format=xml">
+<meta name="generator" content="Site Kit by Google 1.120.0">
+<!-- Google AdSense meta tags added by Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- End Google AdSense meta tags added by Site Kit -->
+
+<!-- Site Kit 添加的 Google AdSense 代码段 -->
+<script type="text/javascript" async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5973459125973458&amp;host=ca-host-pub-2644536267352236" crossorigin="anonymous"></script>
+
+<!-- 结束 Site Kit 添加的 Google AdSense 代码段 -->
+<link rel="icon" href="https://appscross.com/wp-content/uploads/2023/08/cropped-logo-big2-32x32.png" sizes="32x32">
+<link rel="icon" href="https://appscross.com/wp-content/uploads/2023/08/cropped-logo-big2-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://appscross.com/wp-content/uploads/2023/08/cropped-logo-big2-180x180.png">
+<meta name="msapplication-TileImage" content="https://appscross.com/wp-content/uploads/2023/08/cropped-logo-big2-270x270.png">
+		<style type="text/css" id="wp-custom-css">
+			/* inline 背景颜色及强制转角3px 强制字体0.9em*/ 
+.enlighter-v-inline { background-color: #fafafa!important; border-radius: 4px!important; font-size: 0.9em!important; } 
+
+/* inline文字颜色 */
+.enlighter-v-inline.enlighter-t-wpcustom .enlighter-text { color: #262626; }
+
+.entry .entry-content code {
+    background: #f0f0f0;
+    padding: 2px 4px;
+    margin: 0 1px;
+    font-size: .9em;
+    border-radius: 4px;
+    border: solid 1px #e0e0e0;
+}
+/* 所有代码页加边框及转角8px */ 
+.enlighter-t-wpcustom {
+    border-radius: 8px;
+    border: solid 1px #e0e0e0;
+}
+/* 增加上下内边距8,4px */ 
+.enlighter-overflow-scroll.enlighter-v-standard {
+    padding: 8px 0 4px 0;
+}
+
+/*----代码高亮样式调整---------*/
+.enlighter-default {
+  font-family: "Source Code Pro", monospace, Helvetica, Tahoma, Arial, STXihei,
+    "STHeiti Light", "Microsoft YaHei", sans-serif;
+  font-size: 12px;
+  background-color: #161616;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+/*左上角红路灯三点*/
+.enlighter-default:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 12px;
+  height: 12px;
+  background: #fc625d;
+  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  border-radius: 50%;
+}
+
+/*右上角工具条功能位置*/
+.enlighter-toolbar {
+  margin-top: -4.4px;
+  margin-right: -4px;
+}
+
+.enlighter {
+  margin-top: 30px !important;
+	 margin-bottom: 5px !important;
+  background: #272c33;
+}
+
+.enlighter-linenumbers div.enlighter > div::before {
+  list-style: decimal outside;
+  margin-left: 40px;
+  padding: 2px 0;
+}
+
+/*滚动条设置*/
+.enlighter::-webkit-scrollbar{
+	height:6px;	
+	width:6px;
+}
+.enlighter::-webkit-scrollbar-track{
+	background: #e0e0e0;
+}
+.enlighter::-webkit-scrollbar-thumb{
+	background:#1e90ff;
+	border-radius:3px;
+}
+.enlighter::-webkit-scrollbar-thumb:hover {
+  background: #f0f0f0; 
+}
+.enlighter::-webkit-scrollbar-track-piece{
+	background: #e0e0e0;
+}
+.dropdown-menu {left:unset !important;}
+		</style>
+		<script type="text/javascript" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script></script><style>.dplayer{position:relative;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;line-height:1}.dplayer *{box-sizing:content-box}.dplayer svg{width:100%;height:100%}.dplayer svg circle,.dplayer svg path{fill:#fff}.dplayer:-webkit-full-screen{width:100%;height:100%;background:#000;position:fixed;z-index:100000;left:0;top:0;margin:0;padding:0;transform:translate(0)}.dplayer.dplayer-live .dplayer-bar-wrap,.dplayer.dplayer-live .dplayer-controller .dplayer-icons .dplayer-loop,.dplayer.dplayer-live .dplayer-time{display:none}@media (min-width:900px){.dplayer.dplayer-playing .dplayer-controller,.dplayer.dplayer-playing .dplayer-controller-mask{opacity:0}.dplayer.dplayer-playing:hover .dplayer-controller,.dplayer.dplayer-playing:hover .dplayer-controller-mask{opacity:1}}.dplayer.dplayer-loading .dplayer-bezel .diplayer-loading-icon{display:block}.dplayer.dplayer-hide-controller{cursor:none}.dplayer.dplayer-hide-controller .dplayer-controller,.dplayer.dplayer-hide-controller .dplayer-controller-mask{opacity:0;transform:translateY(100%)}.dplayer.dplayer-fulled{position:fixed;z-index:100000;left:0;top:0;width:100%!important;height:100%!important}.dplayer.dplayer-mobile .dplayer-bar-time,.dplayer.dplayer-mobile .dplayer-controller .dplayer-icons .dplayer-full-in,.dplayer.dplayer-mobile .dplayer-controller .dplayer-icons .dplayer-volume{display:none}.dplayer-web-fullscreen-fix{position:fixed;top:0;left:0;margin:0;padding:0}.dplayer-bezel{position:absolute;left:0;right:0;top:0;bottom:0;font-size:22px;color:#fff;pointer-events:none}.dplayer-bezel .dplayer-bezel-icon{position:absolute;top:50%;left:50%;margin:-26px 0 0 -26px;height:52px;width:52px;padding:12px;box-sizing:border-box;background:rgba(0,0,0,.5);border-radius:50%;opacity:0;pointer-events:none}.dplayer-bezel .dplayer-bezel-icon.dplayer-bezel-transition{-webkit-animation:bezel-hide .5s linear;animation:bezel-hide .5s linear}@-webkit-keyframes bezel-hide{0%{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(2)}}@keyframes bezel-hide{0%{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(2)}}.dplayer-bezel .diplayer-loading-icon{display:none;position:absolute;top:50%;left:50%;margin:-18px 0 0 -18px;height:36px;width:36px;pointer-events:none}.dplayer-bezel .diplayer-loading-icon .diplayer-loading-hide{display:none}.dplayer-bezel .diplayer-loading-icon .diplayer-loading-dot{-webkit-animation:diplayer-loading-dot-fade .8s ease infinite;animation:diplayer-loading-dot-fade .8s ease infinite;opacity:0;transform-origin:4px 4px}.dplayer-bezel .diplayer-loading-icon .diplayer-loading-dot.diplayer-loading-dot-7{-webkit-animation-delay:.7s;animation-delay:.7s}.dplayer-bezel .diplayer-loading-icon .diplayer-loading-dot.diplayer-loading-dot-6{-webkit-animation-delay:.6s;animation-delay:.6s}.dplayer-bezel .diplayer-loading-icon .diplayer-loading-dot.diplayer-loading-dot-5{-webkit-animation-delay:.5s;animation-delay:.5s}.dplayer-bezel .diplayer-loading-icon .diplayer-loading-dot.diplayer-loading-dot-4{-webkit-animation-delay:.4s;animation-delay:.4s}.dplayer-bezel .diplayer-loading-icon .diplayer-loading-dot.diplayer-loading-dot-3{-webkit-animation-delay:.3s;animation-delay:.3s}.dplayer-bezel .diplayer-loading-icon .diplayer-loading-dot.diplayer-loading-dot-2{-webkit-animation-delay:.2s;animation-delay:.2s}.dplayer-bezel .diplayer-loading-icon .diplayer-loading-dot.diplayer-loading-dot-1{-webkit-animation-delay:.1s;animation-delay:.1s}@-webkit-keyframes diplayer-loading-dot-fade{0%{opacity:.7;transform:scale(1.2)}50%{opacity:.25;transform:scale(.9)}to{opacity:.25;transform:scale(.85)}}@keyframes diplayer-loading-dot-fade{0%{opacity:.7;transform:scale(1.2)}50%{opacity:.25;transform:scale(.9)}to{opacity:.25;transform:scale(.85)}}.dplayer-controller-mask{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADGCAYAAAAT+OqFAAAAdklEQVQoz42QQQ7AIAgEF/T/D+kbq/RWAlnQyyazA4aoAB4FsBSA/bFjuF1EOL7VbrIrBuusmrt4ZZORfb6ehbWdnRHEIiITaEUKa5EJqUakRSaEYBJSCY2dEstQY7AuxahwXFrvZmWl2rh4JZ07z9dLtesfNj5q0FU3A5ObbwAAAABJRU5ErkJggg==) repeat-x bottom;height:98px;width:100%}.dplayer-controller,.dplayer-controller-mask{position:absolute;bottom:0;transition:all .3s ease}.dplayer-controller{left:0;right:0;height:41px;padding:0 20px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.dplayer-controller .dplayer-bar-wrap{padding:5px 0;cursor:pointer;position:absolute;bottom:33px;width:calc(100% - 40px);height:3px}.dplayer-controller .dplayer-bar-wrap:hover .dplayer-bar .dplayer-played .dplayer-thumb{transform:scale(1)}.dplayer-controller .dplayer-bar-wrap .dplayer-bar-time{position:absolute;left:0;top:-20px;border-radius:4px;padding:5px 7px;background-color:rgba(0,0,0,.62);color:#fff;font-size:12px;text-align:center;opacity:1;transition:opacity .1s ease-in-out;word-wrap:normal;word-break:normal;z-index:2;pointer-events:none}.dplayer-controller .dplayer-bar-wrap .dplayer-bar-time.hidden{opacity:0}.dplayer-controller .dplayer-bar-wrap .dplayer-bar{position:relative;height:3px;width:100%;background:hsla(0,0%,100%,.2);cursor:pointer}.dplayer-controller .dplayer-bar-wrap .dplayer-bar .dplayer-loaded{background:hsla(0,0%,100%,.4);transition:all .5s ease}.dplayer-controller .dplayer-bar-wrap .dplayer-bar .dplayer-loaded,.dplayer-controller .dplayer-bar-wrap .dplayer-bar .dplayer-played{position:absolute;left:0;top:0;bottom:0;height:3px;will-change:width}.dplayer-controller .dplayer-bar-wrap .dplayer-bar .dplayer-played .dplayer-thumb{position:absolute;top:0;right:5px;margin-top:-4px;margin-right:-10px;height:11px;width:11px;border-radius:50%;cursor:pointer;transition:all .3s ease-in-out;transform:scale(0)}.dplayer-controller .dplayer-icons{height:38px;position:absolute;bottom:0}.dplayer-controller .dplayer-icons.dplayer-icons-left .dplayer-icon{padding:7px}.dplayer-controller .dplayer-icons.dplayer-icons-right{right:20px}.dplayer-controller .dplayer-icons.dplayer-icons-right .dplayer-icon{padding:8px}.dplayer-controller .dplayer-icons .dplayer-live-badge,.dplayer-controller .dplayer-icons .dplayer-time{line-height:38px;color:#eee;text-shadow:0 0 2px rgba(0,0,0,.5);vertical-align:middle;font-size:13px;cursor:default}.dplayer-controller .dplayer-icons .dplayer-live-dot{display:inline-block;width:6px;height:6px;vertical-align:4%;margin-right:5px;content:"";border-radius:6px}.dplayer-controller .dplayer-icons .dplayer-icon{width:40px;height:100%;border:none;background-color:transparent;outline:none;position:relative;cursor:pointer;vertical-align:middle;box-sizing:border-box;display:inline-block}.dplayer-controller .dplayer-icons .dplayer-icon .dplayer-icon-content{transition:all .2s ease-in-out;opacity:.8}.dplayer-controller .dplayer-icons .dplayer-icon:hover .dplayer-icon-content{opacity:1}.dplayer-controller .dplayer-icons .dplayer-icon.dplayer-volume-icon{width:43px}.dplayer-controller .dplayer-icons .dplayer-volume{position:relative;display:inline-block;cursor:pointer;height:100%}.dplayer-controller .dplayer-icons .dplayer-volume:hover .dplayer-volume-bar-wrap .dplayer-volume-bar{width:45px}.dplayer-controller .dplayer-icons .dplayer-volume:hover .dplayer-volume-bar-wrap .dplayer-volume-bar .dplayer-volume-bar-inner .dplayer-thumb{transform:scale(1)}.dplayer-controller .dplayer-icons .dplayer-volume.dplayer-volume-active .dplayer-volume-bar-wrap .dplayer-volume-bar{width:45px}.dplayer-controller .dplayer-icons .dplayer-volume.dplayer-volume-active .dplayer-volume-bar-wrap .dplayer-volume-bar .dplayer-volume-bar-inner .dplayer-thumb{transform:scale(1)}.dplayer-controller .dplayer-icons .dplayer-volume .dplayer-volume-bar-wrap{display:inline-block;margin:0 15px 0 -5px;vertical-align:middle;height:100%}.dplayer-controller .dplayer-icons .dplayer-volume .dplayer-volume-bar-wrap .dplayer-volume-bar{position:relative;top:17px;width:0;height:3px;background:#aaa;transition:all .3s ease-in-out}.dplayer-controller .dplayer-icons .dplayer-volume .dplayer-volume-bar-wrap .dplayer-volume-bar .dplayer-volume-bar-inner{position:absolute;bottom:0;left:0;height:100%;transition:all .1s ease;will-change:width}.dplayer-controller .dplayer-icons .dplayer-volume .dplayer-volume-bar-wrap .dplayer-volume-bar .dplayer-volume-bar-inner .dplayer-thumb{position:absolute;top:0;right:5px;margin-top:-4px;margin-right:-10px;height:11px;width:11px;border-radius:50%;cursor:pointer;transition:all .3s ease-in-out;transform:scale(0)}.dplayer-controller .dplayer-icons .dplayer-full,.dplayer-controller .dplayer-icons .dplayer-full-in,.dplayer-controller .dplayer-icons .dplayer-loop{display:inline-block;height:100%}.dplayer-notice{opacity:0;position:absolute;bottom:60px;left:20px;font-size:14px;border-radius:2px;background:rgba(28,28,28,.9);padding:7px 20px;transition:all .3s ease-in-out;overflow:hidden;color:#fff;pointer-events:none}.dplayer-mask{position:absolute;top:0;bottom:0;left:0;right:0;z-index:1;display:none}.dplayer-mask.dplayer-mask-show{display:block}.dplayer-video-wrap{position:relative;background:#000;font-size:0;width:100%;height:100%}.dplayer-video-wrap .dplayer-video{width:100%;height:100%;display:none}.dplayer-video-wrap .dplayer-video-current{display:block}</style><style class="redeviation-bs-style" data-name="content">/*! (c) Philipp Koenig under MS-RSL */
+body>div#redeviation-bs-indicator>div{opacity:0;pointer-events:none}body>#redeviation-bs-overlay.redeviation-bs-visible,body>#redeviation-bs-sidebar.redeviation-bs-visible{opacity:1;pointer-events:auto}body.redeviation-bs-noscroll{overflow:hidden !important}body>div#redeviation-bs-indicator>div{position:absolute;transform:translate3d(-40px, 0, 0);top:0;left:0;width:40px !important;height:100%;background:rgba(0,0,0,0.5);border-radius:0 10px 10px 0;transition:opacity .3s,transform .3s;z-index:2}body>div#redeviation-bs-indicator>div>span{-webkit-mask:no-repeat center/32px;-webkit-mask-image:url(chrome-extension://jdbnofccmhefkmjbkkdkfiicjkgofkdh/img/icon-bookmark.svg);background-color:#ffffff;position:absolute;display:block;top:0;left:0;width:100%;height:100%}body>div#redeviation-bs-indicator[data-pos=right]{left:auto;right:0}body>div#redeviation-bs-indicator[data-pos=right]>div{transform:translate3d(40px, 0, 0);left:auto;right:0;border-radius:10px 0 0 10px}body>div#redeviation-bs-indicator.redeviation-bs-fullHeight>div{border-radius:0}body>div#redeviation-bs-indicator.redeviation-bs-hover>div{transform:translate3d(0, 0, 0);opacity:1}body>div#redeviation-bs-indicator[data-pos=left].redeviation-bs-has-lsb{height:100% !important;top:0 !important}body>div#redeviation-bs-indicator[data-pos=left].redeviation-bs-has-lsb>div{background:rgba(0,0,0,0)}body>div#redeviation-bs-indicator[data-pos=left].redeviation-bs-has-lsb>div>span{-webkit-mask-position-y:20px}body>#redeviation-bs-sidebar{width:350px;max-width:none;height:0;z-index:2147483646;background-color:rgba(0,0,0,0.6) !important;color-scheme:auto !important;speak:none;border:none;display:block !important;transform:translate3d(-350px, 0, 0);transition:width 0s .3s,height 0s .3s,opacity .3s,transform .3s}body>#redeviation-bs-sidebar[data-pos=right]{left:auto;right:0;transform:translate3d(350px, 0, 0)}body>#redeviation-bs-sidebar.redeviation-bs-visible{width:calc(100% + 350px);height:100%;transform:translate3d(0, 0, 0);transition:opacity .3s,transform .3s}body>#redeviation-bs-sidebar.sidepanel{width:100% !important}body>#redeviation-bs-sidebar.redeviation-bs-hideMask{background:none !important}body>#redeviation-bs-sidebar.redeviation-bs-hideMask:not(.redeviation-bs-hover){width:calc(350px + 50px)}body>#redeviation-bs-overlay{width:100%;max-width:none;height:100%;z-index:2147483647;border:none;speak:none;background:rgba(0,0,0,0.5) !important;color-scheme:auto !important;transition:opacity .3s}</style><style data-id="immersive-translate-input-injected-css">.immersive-translate-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2147483647;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.immersive-translate-loading-spinner {
+  vertical-align: middle !important;
+  width: 10px !important;
+  height: 10px !important;
+  display: inline-block !important;
+  margin: 0 4px !important;
+  border: 2px rgba(221, 244, 255, 0.6) solid !important;
+  border-top: 2px rgba(0, 0, 0, 0.375) solid !important;
+  border-left: 2px rgba(0, 0, 0, 0.375) solid !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  -webkit-animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+  animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+}
+
+@-webkit-keyframes immersive-translate-loading-animation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes immersive-translate-loading-animation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+.immersive-translate-input-loading {
+  --loading-color: #f78fb6;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  margin: 12px auto;
+  position: relative;
+  color: white;
+  left: -100px;
+  box-sizing: border-box;
+  animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+}
+
+@keyframes immersiveTranslateShadowRolling {
+  0% {
+    box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  12% {
+    box-shadow: 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  25% {
+    box-shadow: 110px 0 var(--loading-color), 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  36% {
+    box-shadow: 120px 0 var(--loading-color), 110px 0 var(--loading-color), 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  50% {
+    box-shadow: 130px 0 var(--loading-color), 120px 0 var(--loading-color), 110px 0 var(--loading-color), 100px 0 var(--loading-color);
+  }
+
+  62% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color), 120px 0 var(--loading-color), 110px 0 var(--loading-color);
+  }
+
+  75% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color), 120px 0 var(--loading-color);
+  }
+
+  87% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color);
+  }
+
+  100% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0);
+  }
+}
+
+
+.immersive-translate-search-recomend {
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  position: relative;
+  font-size: 16px;
+}
+
+.immersive-translate-search-enhancement-en-title {
+  color: #4d5156;
+}
+
+/* dark */
+@media (prefers-color-scheme: dark) {
+  .immersive-translate-search-recomend {
+    border: 1px solid #3c4043;
+  }
+
+  .immersive-translate-close-action svg {
+    fill: #bdc1c6;
+  }
+
+  .immersive-translate-search-enhancement-en-title {
+    color: #bdc1c6;
+  }
+}
+
+
+.immersive-translate-search-settings {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.immersive-translate-search-recomend::before {
+  /* content: " "; */
+  /* width: 20px; */
+  /* height: 20px; */
+  /* top: 16px; */
+  /* position: absolute; */
+  /* background: center / contain url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAxlBMVEUAAADpTInqTIjpSofnSIfqS4nfS4XqS4nqTIjsTYnrTInqTIroS4jvQIDqTIn////+/v7rSYjpTIn8/v7uaZzrTIr9/f3wfansWJL88/b85e73qc39+/v3xNnylrvrVI/98fb62Obva5/8+fr76vH4y9zpSIj74e353Oj1ocTzm77xhK/veKbtYpjsXJTqU47oTInxjrXyh7L99fj40eH2ttH1udD3sc31ssz1rMnykLXucqPtbqD85e/1xdn2u9DzqcXrUY6FaJb8AAAADnRSTlMA34BgIM8Q37/fz7+/EGOHcVQAAAGhSURBVDjLhZPncuowEEZFTW7bXVU7xsYYTO/p7bb3f6lICIOYJOT4h7/VnFmvrBFjrF3/CR/SajBHswafctG0Qg3O8O0Xa8BZ6uw7eLjqr30SofCDVSkemMinfL1ecy20r5ygR5zz3ArcAqJExPTPKhDENEmS30Q9+yo4lEQkqVTiIEAHCT10xWERRdH0Bq0aCOPZNDV3s0xaYce1lHEoDHU8wEh3qRJypNcTAeKUIjgKMeGLDoRCLVLTVf+Ownj8Kk6H9HM6QXPgYjQSB0F00EJEu10ILQrs/QeP77BSSr0MzLOyuJJQbnUoOOIUI/A8EeJk9E4YUHUWiRyTVKGgQUB8/3e/NpdGlfI+FMQyWsCBWyz4A/ZyHXyiiz0Ne5aGZssoxRmcChw8/EFKQ5JwwkUo3FRT5yXS7q+Y/rHDZmFktzpGMvO+5QofA4FPpEmGw+EWRCFvnaof7Zhe8NuYSLR0xErKLThUSs8gnODh87ssy6438yzbLzxl012HS19vfCf3CNhnbWOL1eEsDda+gDPUvri8tSZzNFrwIZf1NmNvqC1I/t8j7nYAAAAASUVORK5CYII='); */
+}
+
+.immersive-translate-search-title {}
+
+.immersive-translate-search-title-wrapper {}
+
+.immersive-translate-search-time {
+  font-size: 12px;
+  margin: 4px 0 24px;
+  color: #70757a;
+}
+
+.immersive-translate-expand-items {
+  display: none;
+}
+
+.immersive-translate-search-more {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.immersive-translate-modal {
+  display: none;
+  position: fixed;
+  z-index: 2147483647;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+}
+
+.immersive-translate-modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 40px 24px 24px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 270px;
+  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  position: relative
+}
+
+.immersive-translate-modal .immersive-translate-modal-content-in-input {
+  max-width: 500px;
+}
+.immersive-translate-modal-content-in-input .immersive-translate-modal-body {
+  text-align: left;
+  max-height: unset;
+}
+
+.immersive-translate-modal-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.immersive-translate-modal-body {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  word-break: break-all;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .immersive-translate-modal-body {
+    max-height: 250px;
+    overflow-y: auto;
+  }
+}
+
+.immersive-translate-close {
+  color: #666666;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.immersive-translate-close:hover,
+.immersive-translate-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.immersive-translate-modal-footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.immersive-translate-btn {
+  width: fit-content;
+  color: #fff;
+  background-color: #ea4c89;
+  border: none;
+  font-size: 16px;
+  margin: 0 8px;
+  padding: 9px 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.immersive-translate-btn:hover {
+  background-color: #f082ac;
+}
+
+.immersive-translate-cancel-btn {
+  /* gray color */
+  background-color: rgb(89, 107, 120);
+}
+
+
+.immersive-translate-cancel-btn:hover {
+  background-color: hsl(205, 20%, 32%);
+}
+
+.immersive-translate-action-btn {
+  background-color: transparent;
+  color: #EA4C89;
+  border: 1px solid #EA4C89
+}
+
+.immersive-translate-btn svg {
+  margin-right: 5px;
+}
+
+.immersive-translate-link {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-decoration: none;
+  color: #007bff;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, .1);
+}
+
+.immersive-translate-primary-link {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-decoration: none;
+  color: #ea4c89;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, .1);
+}
+
+.immersive-translate-modal input[type="radio"] {
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.immersive-translate-modal label {
+  cursor: pointer;
+}
+
+.immersive-translate-close-action {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  cursor: pointer;
+}</style></head>
+
+<body class="">
+    <div class="k-header">
+        <nav class="k-nav navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="https://appscross.com/">
+                    <img src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/logoslogan-1.png"><h1 style="display:none">老E的博客</h1>                </a>
+                                    <button class="navbar-toggler navbar-toggler-right" id="navbutton" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="line first-line"></span>
+                        <span class="line second-line"></span>
+                        <span class="line third-line"></span>
+                    </button>
+                <div id="navbarResponsive" class="collapse navbar-collapse"><ul id="menu-navitop" class="navbar-nav ml-auto" itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><li><a itemprop="url" href="https://appscross.com/" class="nav-link"><span itemprop="name">首页</span></a></li>
+<li><a itemprop="url" href="https://appscross.com/privacy-policy/" class="nav-link"><span itemprop="name">关于</span></a></li>
+<li><a href="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#" data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-7"><span itemprop="name">技术应用</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-7">
+	<li><a itemprop="url" href="https://appscross.com/category/tech/vps/" class="dropdown-item"><span itemprop="name">VPS相关</span></a></li>
+	<li><a itemprop="url" href="https://appscross.com/category/tech/uncategorized/" class="dropdown-item"><span itemprop="name">AI相关</span></a></li>
+	<li><a itemprop="url" href="https://appscross.com/category/tech/tvbox/" class="dropdown-item"><span itemprop="name">盒子相关</span></a></li>
+	<li><a itemprop="url" href="https://appscross.com/category/tech/uncategorized/" class="dropdown-item"><span itemprop="name">其他</span></a></li>
+</ul>
+</li>
+<li><a itemprop="url" href="https://appscross.com/Sharetools/" class="nav-link"><span itemprop="name">工具下载</span></a></li>
+<li><a itemprop="url" href="https://www.youtube.com/channel/UCbqUc3fOj4oMdf82j5ngXXQ?sub_confirmation=1" class="nav-link menu-image-title-after menu-image-not-hovered"><span itemprop="name"><span class="dashicons dashicons-video-alt3 after-menu-image-icons"></span><span class="menu-image-title-after menu-image-title">订阅Youtube频道</span></span></a></li>
+</ul></div>            </div>
+        </nav>
+                    <div class="banner">
+                <div class="overlay"></div>
+                <div class="content text-center" style="background-image: url(https://appscross.com/wp-content/uploads/2023/06/background-1.jpg);">
+                    <div class="introduce animate__animated animate__fadeInUp">
+                        <div class="title">老E的博客</div><div class="mate">专注记录并分享跨境技术应用及随想</div>                    </div>
+                </div>
+            </div>
+            </div><div class="k-main banner" style="background:#f5f5f5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 details">
+                                    <div class="article">
+                                                    <div class="breadcrumb-box">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <a class="text-dark" href="https://appscross.com/"> 首页</a>
+                                    </li>
+                                    <li class="breadcrumb-item"> <a class="text-dark" href="https://appscross.com/category/tech/">技术应用</a></li><li class="breadcrumb-item"> <a class="text-dark" href="https://appscross.com/category/tech/ai/">AI相关</a></li>                                    <li class="breadcrumb-item active" aria-current="page"> 正文</li>
+                                </ol>
+                            </div>
+                                                <div class="header">
+                            <h1 class="title">每月怒省20刀 人人都可免费本地使用GPTs</h1>
+                            <div class="meta">
+                                <span>2024年2月5日</span>
+                                                                    <span>181次阅读</span>
+                                                                    <span>2条评论</span>
+                                                                                            </div>
+                        </div>
+			<div style="text-align:center">
+				<a href="https://www.youtube.com/channel/UCbqUc3fOj4oMdf82j5ngXXQ?sub_confirmation=1"><img style="width:18%;height:auto" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/subscribe_PNG55.png"></a>
+			</div>
+                        <div class="content" id="lightgallery" lg-uid="lg0">
+                            <div style="text-indent: 2em;">
+<p>受限于都懂的政策，国内版扣子GPT4、DallE3等欠奉，效果很难令人满意。海外版coze迭代后支持了GPT-4 Turbo 128k，长文本生成、pdf相关应用等理论上都可以支持，但是在可访问性、使用习惯上还需要DIY，好在海外版发布后第一时间就有相应的开源应用诞生、发布。本文就详细介绍先通过Discord coze proxy代理应用创建dicord中的coze机器人，再通过render部署应用转换API，最后通过本地安装NextChat访问coze机器人，免费使用GPT-4和DallE等系列模型的方法和过程。</p>
+<p>划重点：无需VPS、无需中转代理、访问无需魔法，对应视频可见「<a href="https://www.youtube.com/@without_answer" target="_blank" rel="nofollow">本人youtube频道</a>」AIGC列表下的「<a href="https://youtu.be/OUydi6kN0bQ" target="_blank" rel="nofollow">教程</a>」。</p>
+<h2><a name="toc-1"></a><strong>1.准备工作</strong></h2>
+<p>要实现在国内本地访问海外版coze的目标，需要具备三个账号：一个海外版coze账号、一个discord账号、一个render账号，同时，国内除render可以直接稳定访问外，discord、海外版coze以及容器镜像源（docker或github）的访问都需要至少一个代理。借助discord本地使用海外版coze分为四个步骤，分别是：</p>
+<ol style="list-style-type: lower-roman; padding-left: 45px; text-indent: 0em;">
+<li>创建、配置discord应用/机器人并记录参数</li>
+<li>创建、发布coze机器人至discord</li>
+<li>Render上安装、部署discord coze proxy开源应用提供API接口</li>
+<li>本地安装并使用NextChat（ChatGPTNextWeb）或其他非官方AI应用调用render上的API接口</li>
+</ol>
+<p>本文使用到的平台和开源应用包括：</p>
+<blockquote style="margin-left: 45px;">
+<ul style="text-indent: 0em;">
+<li>Coze-<a href="https://www.coze.com/" target="_blank" rel="nofollow">Coze: Next-Gen AI Chatbot Developing Platform</a></li>
+<li>Discord-<a href="https://discord.com/" target="_blank" rel="nofollow">Discord | 玩耍聊天的地方</a></li>
+<li>Render-<a href="https://render.com/" target="_blank" rel="nofollow">Cloud Application Hosting for Developers | Render</a></li>
+<li>Coze-discord-proxy-<a href="https://github.com/deanxv/coze-discord-proxy" target="_blank" rel="nofollow">deanxv/coze-discord-proxy: 代理Discord-Bot对话Coze-Bot</a></li>
+<li>NextChat-<a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web" target="_blank" rel="nofollow">ChatGPTNextWeb/ChatGPT-Next-Web: A cross-platform ChatGPT/Gemini UI</a></li>
+</ul>
+</blockquote>
+<p>整个过程中，renden平台国内可以直接访问，NextChat客户端可在这里直接下载桌面端(「<a href="https://appscross.com/Sharetools/Tools%20Share/NextChat/NextChat_2.10.1_x64-setup.exe">Windows cn</a>」、「<a href="https://appscross.com/Sharetools/Tools%20Share/NextChat/NextChat_2.10.1_x64_en-US.msi">Windows en</a>」 <a href="https://appscross.com/Sharetools/Tools%20Share/NextChat/next-chat_2.10.1_amd64.deb">「Debian/Ubuntu</a>」、「<a href="https://appscross.com/Sharetools/Tools%20Share/NextChat/NextChat_2.10.1_x64.dmg">MacOS</a>」)，但discord、coze的访问必须借助梯子。这里特别安利一下一直使用的⚡<a href="https://bit.ly/prd-vpn" target="_blank" rel="nofollow">高速<strong>VPN</strong></a><strong>⚡</strong>，国内可用、官网可访问且有免费层级计划（每月10GB流量），点击下方👇注册、下载。具体使用方法可见博文「<a href="https://appscross.com/2024/01/privadovpn-a-vpn-available-in-china-with-a-free-forever-plan/">国内可用、提供免费计划的VPN</a>」和「<a href="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpts/">PrivadoVPN的协议选择</a>」。</p>
+<p><a href="https://bit.ly/prd-vpn" target="_blank" rel="nofollow"><img fetchpriority="high" decoding="async" class="wp-image-1470 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/vpn.jpg" alt="" width="696" height="254" srcset="https://appscross.com/wp-content/uploads/2024/02/vpn.jpg 1280w, https://appscross.com/wp-content/uploads/2024/02/vpn-300x109.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/vpn-1024x374.jpg 1024w, https://appscross.com/wp-content/uploads/2024/02/vpn-768x280.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/vpn-24x9.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/vpn-36x13.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/vpn-48x18.jpg 48w" sizes="(max-width: 696px) 100vw, 696px"></a></p>
+<h2><a name="toc-2"></a><strong>2.创建、配置Discord应用/机器人</strong></h2>
+<h3><a name="toc-3"></a><strong>2.1 打开开发者模式、创建服务器</strong></h3>
+<p>Discord注册环节略过，登录Discord后，在discord及discord开发平台分别创建服务器和2个机器人，过程很简单，重点是记录服务器、频道和机器人的各项标识和参数备用。discord中，点击界面左下方的代表用户设置的齿轮图标，调出用户设置对话框，选择『高级设置』，打开『开发者模式』。</p>
+<p><img decoding="async" class="wp-image-1441 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/开发模式.jpg" alt="Developer mode of discord" width="1083" height="518" srcset="https://appscross.com/wp-content/uploads/2024/02/开发模式.jpg 1200w, https://appscross.com/wp-content/uploads/2024/02/开发模式-300x144.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/开发模式-1024x490.jpg 1024w, https://appscross.com/wp-content/uploads/2024/02/开发模式-768x367.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/开发模式-24x11.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/开发模式-36x17.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/开发模式-48x23.jpg 48w" sizes="(max-width: 1083px) 100vw, 1083px"></p>
+<p>接下来创建服务器，左侧导航栏点选加号图标，在弹出的『创建您的服务器』对话框中选择『亲自创建』。</p>
+<p><img decoding="async" class="wp-image-1442 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/createserver.jpg" alt="" width="932" height="606" srcset="https://appscross.com/wp-content/uploads/2024/02/createserver.jpg 1280w, https://appscross.com/wp-content/uploads/2024/02/createserver-300x195.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/createserver-1024x666.jpg 1024w, https://appscross.com/wp-content/uploads/2024/02/createserver-768x499.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/createserver-24x16.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/createserver-36x23.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/createserver-48x31.jpg 48w" sizes="(max-width: 932px) 100vw, 932px"></p>
+<p>之后可以结合服务器开放程度需要进行选择，这里实例选择了『仅供我和我的朋友使用』。</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-1443 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/createserver2.png" alt="" width="444" height="397" srcset="https://appscross.com/wp-content/uploads/2024/02/createserver2.png 546w, https://appscross.com/wp-content/uploads/2024/02/createserver2-300x268.png 300w, https://appscross.com/wp-content/uploads/2024/02/createserver2-24x21.png 24w, https://appscross.com/wp-content/uploads/2024/02/createserver2-36x32.png 36w, https://appscross.com/wp-content/uploads/2024/02/createserver2-48x43.png 48w" sizes="(max-width: 444px) 100vw, 444px"></p>
+<p>接下来自定义服务器，定义并输入服务器名称，是需要可上传服务器logo，然后点击『创建』就完成了服务器创建工作，右键点击左侧新出现的服务器图标，可以查看服务器ID。</p>
+<p><a href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/servername.png"><img loading="lazy" decoding="async" class=" wp-image-1444 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/servername.png" alt="" width="452" height="416" srcset="https://appscross.com/wp-content/uploads/2024/02/servername.png 547w, https://appscross.com/wp-content/uploads/2024/02/servername-300x276.png 300w, https://appscross.com/wp-content/uploads/2024/02/servername-24x22.png 24w, https://appscross.com/wp-content/uploads/2024/02/servername-36x33.png 36w, https://appscross.com/wp-content/uploads/2024/02/servername-48x44.png 48w" sizes="(max-width: 452px) 100vw, 452px"></a></p>
+<h3><a name="toc-4"></a><strong>2.2 创建、配置discord机器人并记录参数</strong></h3>
+<p>前往「<a href="https://discord.com/developers/applications" target="_blank" rel="nofollow">discord开发者平台</a>」创建discord应用（discord bot）并进行配置和参数记录。</p>
+<p><img loading="lazy" decoding="async" class="wp-image-1445 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/newapp.jpg" alt="" width="1077" height="582" srcset="https://appscross.com/wp-content/uploads/2024/02/newapp.jpg 1280w, https://appscross.com/wp-content/uploads/2024/02/newapp-300x162.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/newapp-1024x554.jpg 1024w, https://appscross.com/wp-content/uploads/2024/02/newapp-768x415.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/newapp-24x13.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/newapp-36x19.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/newapp-48x26.jpg 48w" sizes="(max-width: 1077px) 100vw, 1077px"></p>
+<h4><strong>创建并配置第一个discord机器人</strong></h4>
+<p>文中采用bot1指代第一个discord机器人。给bot1应用起个名字，勾选同意开发者政策复选框，点击『Create/创建』。</p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-1446 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/newapp-1.png" alt="" width="360" height="223" srcset="https://appscross.com/wp-content/uploads/2024/02/newapp-1.png 360w, https://appscross.com/wp-content/uploads/2024/02/newapp-1-300x186.png 300w, https://appscross.com/wp-content/uploads/2024/02/newapp-1-24x15.png 24w, https://appscross.com/wp-content/uploads/2024/02/newapp-1-36x22.png 36w, https://appscross.com/wp-content/uploads/2024/02/newapp-1-48x30.png 48w" sizes="(max-width: 360px) 100vw, 360px"></p>
+<p>创建第一个机器人bot1后，在应用概述页面拷贝bot1的ID备用，即『Application ID』。下方的公钥Public Key本用例无需拷贝。</p>
+<p><img loading="lazy" decoding="async" class="wp-image-1447 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/cozebotid.jpg" alt="" width="743" height="518" srcset="https://appscross.com/wp-content/uploads/2024/02/cozebotid.jpg 1000w, https://appscross.com/wp-content/uploads/2024/02/cozebotid-300x209.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/cozebotid-768x535.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/cozebotid-24x17.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/cozebotid-36x25.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/cozebotid-48x33.jpg 48w" sizes="(max-width: 743px) 100vw, 743px"></p>
+<p>点击左侧导航栏中的『Bot』，点击『Reset Token』生成一个Token并拷贝。这里USERNAME处显示的机器人名称和左上角的机器人名称，因为要创建两个机器人，不要混淆。</p>
+<p><img loading="lazy" decoding="async" class="wp-image-1448 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/bot1-token.jpg" alt="" width="924" height="512" srcset="https://appscross.com/wp-content/uploads/2024/02/bot1-token.jpg 1698w, https://appscross.com/wp-content/uploads/2024/02/bot1-token-300x166.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/bot1-token-1024x567.jpg 1024w, https://appscross.com/wp-content/uploads/2024/02/bot1-token-768x425.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/bot1-token-1536x850.jpg 1536w, https://appscross.com/wp-content/uploads/2024/02/bot1-token-24x13.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/bot1-token-36x20.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/bot1-token-48x27.jpg 48w" sizes="(max-width: 924px) 100vw, 924px"></p>
+<p>弹出对话框中选择『Yes,do it!』生成token，之后就会出现『Copy』按钮，拷贝token备用。</p>
+<p style="text-align: center;"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-1450" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/reset-token2.png" alt="reset&amp;copy token of discord bot" width="1172" height="244" srcset="https://appscross.com/wp-content/uploads/2024/02/reset-token2.png 1172w, https://appscross.com/wp-content/uploads/2024/02/reset-token2-300x62.png 300w, https://appscross.com/wp-content/uploads/2024/02/reset-token2-1024x213.png 1024w, https://appscross.com/wp-content/uploads/2024/02/reset-token2-768x160.png 768w, https://appscross.com/wp-content/uploads/2024/02/reset-token2-24x5.png 24w, https://appscross.com/wp-content/uploads/2024/02/reset-token2-36x7.png 36w, https://appscross.com/wp-content/uploads/2024/02/reset-token2-48x10.png 48w" sizes="(max-width: 1172px) 100vw, 1172px"></p>
+<p>token重置并拷贝后，我们还需要为bot1赋予权限，下拉后打开如下图三项，分别是『PRESENCE INTENT』、『SERVER MEMBERS INTENT』、『MESSAGE CONTENT INTENT』，再点击『Save Charges』保存权限状态更改。</p>
+<p><img loading="lazy" decoding="async" class="wp-image-1451 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/bot1-priv.jpg" alt="" width="1057" height="399" srcset="https://appscross.com/wp-content/uploads/2024/02/bot1-priv.jpg 1280w, https://appscross.com/wp-content/uploads/2024/02/bot1-priv-300x113.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/bot1-priv-1024x386.jpg 1024w, https://appscross.com/wp-content/uploads/2024/02/bot1-priv-768x290.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/bot1-priv-24x9.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/bot1-priv-36x14.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/bot1-priv-48x18.jpg 48w" sizes="(max-width: 1057px) 100vw, 1057px"></p>
+<h4><strong>创建并配置第二个discord机器人</strong></h4>
+<p>回退至<a href="https://discord.com/developers/applications" target="_blank" rel="nofollow">discord开发者平台</a>」应用概述页面，创建第二个discord机器人，这里使用bot2指代。</p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-1452 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/bot2.png" alt="" width="1000" height="539" srcset="https://appscross.com/wp-content/uploads/2024/02/bot2.png 1000w, https://appscross.com/wp-content/uploads/2024/02/bot2-300x162.png 300w, https://appscross.com/wp-content/uploads/2024/02/bot2-768x414.png 768w, https://appscross.com/wp-content/uploads/2024/02/bot2-24x13.png 24w, https://appscross.com/wp-content/uploads/2024/02/bot2-36x19.png 36w, https://appscross.com/wp-content/uploads/2024/02/bot2-48x26.png 48w" sizes="(max-width: 1000px) 100vw, 1000px"></p>
+<p>bot2机器人创建及Applicatin ID、Token获取方法和过程同bot1。bot不需要进行额外的权限配置。</p>
+<h3><a name="toc-5"></a><strong>2.3 将bot1、bot2机器人邀请发布至刚刚创建的服务器</strong></h3>
+<p>两个机器人创建后，可开发者平台进行切换选择。这里切换至第一个机器人bot1，左侧点选『OAuth2』。</p>
+<p><img loading="lazy" decoding="async" class="wp-image-1453 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/releasebot1.png" alt="" width="554" height="382" srcset="https://appscross.com/wp-content/uploads/2024/02/releasebot1.png 613w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-300x207.png 300w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-24x17.png 24w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-36x25.png 36w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-48x33.png 48w" sizes="(max-width: 554px) 100vw, 554px"></p>
+<p>点击『URL Gernerator』后，勾选bot，下方会弹出机器人发布至服务器中可获得的权限。</p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-1454 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/releasebot1-1.jpg" alt="" width="1000" height="388" srcset="https://appscross.com/wp-content/uploads/2024/02/releasebot1-1.jpg 1000w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-1-300x116.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-1-768x298.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-1-24x9.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-1-36x14.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-1-48x19.jpg 48w" sizes="(max-width: 1000px) 100vw, 1000px"></p>
+<p>在下方勾选如图的权限项，分别是Manage Channels、Read Messages/View Channels、Send Messages、Send Messages in threads、Manage Messages、Read Message History等6项，每勾选一项，下方发布URL的permission字段都会发生变化，discord是以整数值对应相应权限的。</p>
+<p><img loading="lazy" decoding="async" class="wp-image-1455 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/url1.jpg" alt="" width="924" height="581" srcset="https://appscross.com/wp-content/uploads/2024/02/url1.jpg 1115w, https://appscross.com/wp-content/uploads/2024/02/url1-300x189.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/url1-1024x644.jpg 1024w, https://appscross.com/wp-content/uploads/2024/02/url1-768x483.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/url1-24x15.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/url1-36x23.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/url1-48x30.jpg 48w" sizes="(max-width: 924px) 100vw, 924px"></p>
+<p>点击『Copy』按钮，将URL拷贝后，在新窗口或新标签页粘贴跳转，在打开的邀请发布页『添加至服务器』处，注意选择正确的计划发布的目标服务器，然后点击『继续』，授权保持各项勾选状态（就是之前在配置bot1时勾选的6项权限），点击『授权』。</p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-1457 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/releasebot1-4.png" alt="" width="540" height="536" srcset="https://appscross.com/wp-content/uploads/2024/02/releasebot1-4.png 540w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-4-300x298.png 300w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-4-150x150.png 150w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-4-24x24.png 24w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-4-36x36.png 36w, https://appscross.com/wp-content/uploads/2024/02/releasebot1-4-48x48.png 48w" sizes="(max-width: 540px) 100vw, 540px"></p>
+<p>后续可能需要进行人机验证，通过人机验证后，即完成了bot1的发布。discord自动跳转至server界面，下方会显示机器人“跳进了服务器”的提示。同时，每个服务器默认会有一个文字频道和语音频道。</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-1458 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/releaseok-bot1.jpg" alt="release bot1 to server" width="865" height="613" srcset="https://appscross.com/wp-content/uploads/2024/02/releaseok-bot1.jpg 1000w, https://appscross.com/wp-content/uploads/2024/02/releaseok-bot1-300x213.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/releaseok-bot1-768x545.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/releaseok-bot1-24x17.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/releaseok-bot1-36x26.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/releaseok-bot1-48x34.jpg 48w" sizes="(max-width: 865px) 100vw, 865px"></p>
+<p>bot2的发布同bot1，区别在于仅需配置Send Messages、Read Message History 权限，然后『Copy』发布URL即可。</p>
+<p><a href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/bot2p.jpg"><img loading="lazy" decoding="async" class="wp-image-1461 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/bot2p.jpg" alt="bot permision" width="794" height="463" srcset="https://appscross.com/wp-content/uploads/2024/02/bot2p.jpg 1104w, https://appscross.com/wp-content/uploads/2024/02/bot2p-300x175.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/bot2p-1024x597.jpg 1024w, https://appscross.com/wp-content/uploads/2024/02/bot2p-768x448.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/bot2p-24x14.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/bot2p-36x21.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/bot2p-48x28.jpg 48w" sizes="(max-width: 794px) 100vw, 794px"></a></p>
+<p>bot1、bot2邀请发布完成后，discord中会有所提示。</p>
+<p><a href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/releaseok.png"><img loading="lazy" decoding="async" class="size-full wp-image-1460 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/releaseok.png" alt="" width="533" height="218" srcset="https://appscross.com/wp-content/uploads/2024/02/releaseok.png 533w, https://appscross.com/wp-content/uploads/2024/02/releaseok-300x123.png 300w, https://appscross.com/wp-content/uploads/2024/02/releaseok-24x10.png 24w, https://appscross.com/wp-content/uploads/2024/02/releaseok-36x15.png 36w, https://appscross.com/wp-content/uploads/2024/02/releaseok-48x20.png 48w" sizes="(max-width: 533px) 100vw, 533px"></a></p>
+<h3><a name="toc-6"></a><strong>2.4 完成discord机器人配置</strong></h3>
+<p>最后，拷贝服务器ID和默认频道（文字频道 #常规）ID。</p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-1462 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/copyid2.png" alt="" width="801" height="592" srcset="https://appscross.com/wp-content/uploads/2024/02/copyid2.png 801w, https://appscross.com/wp-content/uploads/2024/02/copyid2-300x222.png 300w, https://appscross.com/wp-content/uploads/2024/02/copyid2-768x568.png 768w, https://appscross.com/wp-content/uploads/2024/02/copyid2-24x18.png 24w, https://appscross.com/wp-content/uploads/2024/02/copyid2-36x27.png 36w, https://appscross.com/wp-content/uploads/2024/02/copyid2-48x35.png 48w" sizes="(max-width: 801px) 100vw, 801px"></p>
+<p>至此，discord中的bot创建、发布和参数记录完成。重点包括：</p>
+<ul style="text-indent: 0em; padding-left: 45px;">
+<li>bot1作为coze托管的机器人，bot2扮演“网关”角色，外部程序调用bot2，主动发起聊天</li>
+<li>需要拷贝bot1的Application ID、Token，bot2的Token、服务器的ID和默认频道（文字频道 #常规）ID</li>
+<li>对bot1的授权和对bot2的授权不同，bot2仅需授权发送、接收消息</li>
+</ul>
+<h2><a name="toc-7"></a><strong>3.创建coze机器人并发布至discord</strong></h2>
+<p>在coze中创建并发布机器人的方法和详细过程请见「<a href="https://appscross.com/2024/01/coze-create-test-and-release-exclusive-robots/">Coze：白嫖GPT4/GPT4V、DallE3创建、测试、发布专属机器人</a>」，仅需注意两点：</p>
+<ul style="text-indent: 0em; padding-left: 45px;">
+<li>区别于视频演示内容，可不添加任何提示词和开场白</li>
+<li>模型当前可选择GPT4 Turbo(128k)，插件建议选择GPT4V、DALLE 3、Google Web Search</li>
+</ul>
+<p><a href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/gpt4-128k.png"><img loading="lazy" decoding="async" class=" wp-image-1463 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/gpt4-128k.png" alt="" width="683" height="286" srcset="https://appscross.com/wp-content/uploads/2024/02/gpt4-128k.png 805w, https://appscross.com/wp-content/uploads/2024/02/gpt4-128k-300x126.png 300w, https://appscross.com/wp-content/uploads/2024/02/gpt4-128k-768x322.png 768w, https://appscross.com/wp-content/uploads/2024/02/gpt4-128k-24x10.png 24w, https://appscross.com/wp-content/uploads/2024/02/gpt4-128k-36x15.png 36w, https://appscross.com/wp-content/uploads/2024/02/gpt4-128k-48x20.png 48w" sizes="(max-width: 683px) 100vw, 683px"></a></p>
+<p>发布coze机器人至discord需绑定bot1，也即填写bot1的Token。</p>
+<p><a href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/coze1.png"><img loading="lazy" decoding="async" class=" wp-image-1464 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/coze1.png" alt="publish coze bot to discord" width="528" height="449" srcset="https://appscross.com/wp-content/uploads/2024/02/coze1.png 631w, https://appscross.com/wp-content/uploads/2024/02/coze1-300x255.png 300w, https://appscross.com/wp-content/uploads/2024/02/coze1-24x20.png 24w, https://appscross.com/wp-content/uploads/2024/02/coze1-36x31.png 36w, https://appscross.com/wp-content/uploads/2024/02/coze1-48x41.png 48w" sizes="(max-width: 528px) 100vw, 528px"></a></p>
+<p>点击『Save』保存后，勾选discord，再点击右上角的『Publish』就完成了coze机器人发布并绑定（托管）discord bot1的工作。</p>
+<p><a href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/coze2.png"><img loading="lazy" decoding="async" class="wp-image-1465 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/coze2.png" alt="" width="787" height="321" srcset="https://appscross.com/wp-content/uploads/2024/02/coze2.png 1145w, https://appscross.com/wp-content/uploads/2024/02/coze2-300x122.png 300w, https://appscross.com/wp-content/uploads/2024/02/coze2-1024x418.png 1024w, https://appscross.com/wp-content/uploads/2024/02/coze2-768x313.png 768w, https://appscross.com/wp-content/uploads/2024/02/coze2-24x10.png 24w, https://appscross.com/wp-content/uploads/2024/02/coze2-36x15.png 36w, https://appscross.com/wp-content/uploads/2024/02/coze2-48x20.png 48w" sizes="(max-width: 787px) 100vw, 787px"></a></p>
+<p>回到discord，就可以@bot1进行测试了，这里“@”的应为coze机器人的名称，输入@在弹出菜单中选择即可。</p>
+<h2><a name="toc-8"></a><strong>4.在Render上部署coze-discord-proxy</strong></h2>
+<p>可点击「<a href="https://render.com/register" target="_blank" rel="nofollow">此处</a>」注册render。除了0.1c CPU和512m 内存，Render的Free计划提供每个月总计750小时的实例（包括web servive）运行时间，也就是说只有1个实例的话，是可以长期不间断运行的。出口流量上，Freee计划是每月100GB，如果绑卡还可以额外增加，单纯个人自用的ChatGPT，100GB/M是足够的，虽然有休眠限制，但可以非常简单地通过定期发起连接请求解决。因此，推荐在桌面端安装第三方ChatGPT客户端而非在VPS或Serverless方式部署ChatGPT客户端。</p>
+<p>有关render的注册使用可参考往期博文「<a href="https://appscross.com/2023/12/deploy-librechat-on-render/">在Render上部署LibreChat</a>」，本文不展开。注意以下两方面：</p>
+<ul style="text-indent: 0em; padding-left: 45px;">
+<li>render无需fork repo，可以直接导入镜像，输入镜像名称<strong>deanxv/coze-discord-proxy</strong>，render会自动搜索docker官方源并拉取导入。</li>
+</ul>
+<p><a href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/docker.png"><img loading="lazy" decoding="async" class="wp-image-1467 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/docker.png" alt="" width="567" height="296" srcset="https://appscross.com/wp-content/uploads/2024/02/docker.png 703w, https://appscross.com/wp-content/uploads/2024/02/docker-300x157.png 300w, https://appscross.com/wp-content/uploads/2024/02/docker-24x13.png 24w, https://appscross.com/wp-content/uploads/2024/02/docker-36x19.png 36w, https://appscross.com/wp-content/uploads/2024/02/docker-48x25.png 48w" sizes="(max-width: 567px) 100vw, 567px"></a></p>
+<ul style="text-indent: 0em; padding-left: 45px;">
+<li>在创建web service的最后一步，点击『Add Environment Variable』逐项添加环境变量，分别为：
+<ul>
+<li>BOT_TOKEN（discord bot2的token）</li>
+<li>GUILD_ID（服务器ID）</li>
+<li>COZE_BOT_ID（discord bot1的ID）</li>
+<li>CHANNEL_ID（频道ID）</li>
+<li>PROXY_SECRET（对应于NextChat的OpenAI API Key，可手动编写）</li>
+<li>TZ（时区 Asia/Shanghai）</li>
+</ul>
+</li>
+</ul>
+<p><a href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/render.png"><img loading="lazy" decoding="async" class="wp-image-1466 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/render.png" alt="" width="843" height="405" srcset="https://appscross.com/wp-content/uploads/2024/02/render.png 1030w, https://appscross.com/wp-content/uploads/2024/02/render-300x144.png 300w, https://appscross.com/wp-content/uploads/2024/02/render-1024x492.png 1024w, https://appscross.com/wp-content/uploads/2024/02/render-768x369.png 768w, https://appscross.com/wp-content/uploads/2024/02/render-24x12.png 24w, https://appscross.com/wp-content/uploads/2024/02/render-36x17.png 36w, https://appscross.com/wp-content/uploads/2024/02/render-48x23.png 48w" sizes="(max-width: 843px) 100vw, 843px"></a></p>
+<p>点击『Create Web Service』之后，部署过程很快，部署完成render log中即有live提示。xxxx.onrender.com就是web service的域名，也是客户端调用OpenAI API时的BASE_URL。</p>
+<p><a href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/live.jpg"><img loading="lazy" decoding="async" class="wp-image-1468 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/live.jpg" alt="" width="694" height="485" srcset="https://appscross.com/wp-content/uploads/2024/02/live.jpg 1016w, https://appscross.com/wp-content/uploads/2024/02/live-300x210.jpg 300w, https://appscross.com/wp-content/uploads/2024/02/live-768x537.jpg 768w, https://appscross.com/wp-content/uploads/2024/02/live-24x17.jpg 24w, https://appscross.com/wp-content/uploads/2024/02/live-36x25.jpg 36w, https://appscross.com/wp-content/uploads/2024/02/live-48x34.jpg 48w" sizes="(max-width: 694px) 100vw, 694px"></a></p>
+<h2><a name="toc-9"></a><strong>5.本地客户端（NextChat）使用</strong></h2>
+<p>这里我们安装、使用NextChat（ChatGPTNextWeb）的Windows客户端即可，多人共享需要在远程部署非官方ChatGPT应用。对应操作系统X64架构安装包，可在此分别下载「<a href="https://appscross.com/Sharetools/Tools%20Share/NextChat/NextChat_2.10.1_x64-setup.exe">Windows cn</a>」、「<a href="https://appscross.com/Sharetools/Tools%20Share/NextChat/NextChat_2.10.1_x64_en-US.msi">Windows en</a>」 <a href="https://appscross.com/Sharetools/Tools%20Share/NextChat/next-chat_2.10.1_amd64.deb">「Debian/Ubuntu</a>」、「<a href="https://appscross.com/Sharetools/Tools%20Share/NextChat/NextChat_2.10.1_x64.dmg">MacOS</a>」。</p>
+<p>安装NextChat后，仅需填写接口地址、API Key两项内容。</p>
+<ul style="text-indent: 0em; padding-left: 45px;">
+<li>接口地址为render为web service分配的域名（https://xxxx.onrender.com），不要添加端口号</li>
+<li>API Key即为web service的环境变量PROXY_SECRET，NextChat中API Key默认不可为空，这也是在使用NextChat时需要在render web service环境变量中添加PROXY_SECRET可选参数的原因</li>
+</ul>
+<p><a href="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/nextchat.png"><img loading="lazy" decoding="async" class="wp-image-1469 aligncenter" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/nextchat.png" alt="" width="1141" height="89" srcset="https://appscross.com/wp-content/uploads/2024/02/nextchat.png 2129w, https://appscross.com/wp-content/uploads/2024/02/nextchat-300x23.png 300w, https://appscross.com/wp-content/uploads/2024/02/nextchat-1024x80.png 1024w, https://appscross.com/wp-content/uploads/2024/02/nextchat-768x60.png 768w, https://appscross.com/wp-content/uploads/2024/02/nextchat-1536x120.png 1536w, https://appscross.com/wp-content/uploads/2024/02/nextchat-2048x160.png 2048w, https://appscross.com/wp-content/uploads/2024/02/nextchat-24x2.png 24w, https://appscross.com/wp-content/uploads/2024/02/nextchat-36x3.png 36w, https://appscross.com/wp-content/uploads/2024/02/nextchat-48x4.png 48w" sizes="(max-width: 1141px) 100vw, 1141px"></a></p>
+<p>前面的所有配置完成后，就可以开始每月怒省20刀，免费使用GPT4 Turbo（128k）之旅了，无需VPS、无需中转代理、无需魔法，而且无需考虑render的休眠机制，coze-discord-proxy的作者增加定时任务，会保持render上web service的激活状态。如果开源项目<a href="https://github.com/deanxv/coze-discord-proxy" target="_blank" rel="nofollow">coze-discord-proxy</a>和<a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web" target="_blank" rel="nofollow">nextchat</a>不错，别忘了github上给作者点颗星星。</p>
+<p>需要注意的是，字节coze貌似对速率有所限制，所以不建议短时间高频次调用，确有生产任务可以进行适当分解为若干子任务。</p>
+</div>
+                        </div>
+                        <div class="copyright"><span class="text-center">本作品采用 知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 进行许可</span></div>                        <div class="footer clearfix">
+                            <div class="tags float-left">
+                                <span>标签：</span>
+                                <a href="https://appscross.com/tag/chatgpt/" rel="tag">ChatGPT</a> <a href="https://appscross.com/tag/coze/" rel="tag">coze</a> <a href="https://appscross.com/tag/discord/" rel="tag">discord</a> <a href="https://appscross.com/tag/gpt4-turbo/" rel="tag">GPT4 Turbo</a> <a href="https://appscross.com/tag/%e5%85%8d%e8%b4%b9%e6%9c%ac%e5%9c%b0%e4%bd%bf%e7%94%a8chatgpt4/" rel="tag">免费本地使用ChatGPT4</a>                            </div>
+                            <div class="tool float-right d-none d-lg-block">
+                                <span>最后更新：2024年2月10日</span>
+                            </div>
+                        </div>
+                    </div>
+                                <div class="toolbar clearfix">
+	<div class="meta float-md-left">
+		<img src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/83d21576b24adaec0d24aca3d1525d46.png">
+		<p class="name">webmaster</p>
+		<p class="motto mb-0">这个人很懒，什么都没留下</p>
+	</div>
+	<div class="share float-md-right text-center">
+				<a href="javascript:;" id="thumbs" data-action="love" data-id="1437" role="button" class="btn btn-thumbs "><i class="kicon i-like"></i><span class="ml-1">点赞</span></a>
+	</div>
+</div>                <nav class="navigation post-navigation clearfix" role="navigation">
+                    <div class="nav-previous clearfix"><a title="自带全球节点、增强隐私保护的一次性浏览器" href="https://appscross.com/2024/01/a-single-use-browser-with-global-nodes-and-enhanced-privacy-protection/">&lt; 上一篇</a></div><div class="nav-next"><a title="Jellyfin封面与字幕乱码的解决方法" href="https://appscross.com/2024/02/jellyfin-cover-and-subtitles-garbled/">下一篇 &gt;</a></div>                </nav>
+                	<div class="comments" id="comments">
+		<h3 class="title">文章评论</h3>
+		<div class="list">
+			        <li class="comment cleanfix" id="comment-101">
+            <div class="avatar float-left d-inline-block mr-2">
+                <img alt="" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/62b1d742ff01620a77952dad3a08ad0d.png" srcset="https://secure.gravatar.com/avatar/62b1d742ff01620a77952dad3a08ad0d?s=100&amp;d=mm&amp;r=g 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">            </div>
+            <div class="info clearfix">
+                <cite class="author_name">小东</cite>
+                                <div class="content pb-2">
+                    <p>老大你好，怎么联系你，想跟你做朋友</p>
+                </div>
+                <div class="meta clearfix">
+                    <div class="date d-inline-block float-left">2024年2月12日                                            </div>
+                    <div class="tool reply ml-2 d-inline-block float-right">
+                        <a rel="nofollow" class="comment-reply-link" href="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#comment-101" data-commentid="101" data-postid="1437" data-belowelement="comment-101" data-respondelement="respond" data-replyto="回复给小东" aria-label="回复给小东"><i class="kicon i-reply"></i><span class="ml-1">回复</span></a>                    </div>
+                </div>
+            </div>
+    <ul class="children">
+        <li class="comment cleanfix" id="comment-102">
+            <div class="avatar float-left d-inline-block mr-2">
+                <img alt="" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/83d21576b24adaec0d24aca3d1525d46(1).png" srcset="https://secure.gravatar.com/avatar/83d21576b24adaec0d24aca3d1525d46?s=100&amp;d=mm&amp;r=g 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">            </div>
+            <div class="info clearfix">
+                <cite class="author_name"><a href="https://www.appscross.com/" class="url" rel="ugc external nofollow">webmaster</a></cite>
+                                <div class="content pb-2">
+                    <p><span>@小东</span> 页脚tg x mail...</p>
+                </div>
+                <div class="meta clearfix">
+                    <div class="date d-inline-block float-left">2024年2月14日                                            </div>
+                    <div class="tool reply ml-2 d-inline-block float-right">
+                        <a rel="nofollow" class="comment-reply-link" href="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#comment-102" data-commentid="102" data-postid="1437" data-belowelement="comment-102" data-respondelement="respond" data-replyto="回复给webmaster" aria-label="回复给webmaster"><i class="kicon i-reply"></i><span class="ml-1">回复</span></a>                    </div>
+                </div>
+            </div>
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		</div>
+		<div id="commentpage" class="nav text-center my-2">
+								</div>
+		<div id="respond" class="comment-respond mt-2">
+							<form id="commentform" name="commentform" action="https://appscross.com/wp-comments-post.php" method="post">
+					<div class="comment-form">
+													<div class="comment-info mb-3 row">
+								<div class="col-md-6 comment-form-author">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="kicon i-user"></i></span>
+										</div>
+										<input class="form-control" id="author" placeholder="昵称" name="author" type="text" value="">
+									</div>
+								</div>
+								<div class="col-md-6 mt-3 mt-md-0 comment-form-email">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="kicon i-cemail"></i></span>
+										</div>
+										<input id="email" class="form-control" name="email" placeholder="邮箱" type="email" value="">
+									</div>
+								</div>
+								<div class="col-md-6 mt-3 comment-form-author">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="kicon i-url"></i></span>
+										</div>
+										<input class="form-control" id="author" placeholder="网址" name="url" type="url" value="">
+									</div>
+								</div>
+							</div>
+												<div class="comment-textarea">
+							<textarea class="form-control" id="comment" name="comment" rows="7" required="required"></textarea>
+							<div class="text-bar clearfix">
+								<div class="tool float-left">
+									<a class="addbtn" href="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#" id="addsmile"><i class="kicon i-face"></i></a>
+									<div class="smile">
+										<div class="clearfix">
+											<a href="javascript:grin(&#39;:razz:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/razz.png" alt="razz"></a>
+<a href="javascript:grin(&#39;:evil:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/evil.png" alt="evil"></a>
+<a href="javascript:grin(&#39;:exclaim:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/exclaim.png" alt="exclaim"></a>
+<a href="javascript:grin(&#39;:smile:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/smile.png" alt="smile"></a>
+<a href="javascript:grin(&#39;:redface:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/redface.png" alt="redface"></a>
+<a href="javascript:grin(&#39;:biggrin:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/biggrin.png" alt="biggrin"></a>
+<a href="javascript:grin(&#39;:eek:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/eek.png" alt="eek"></a>
+<a href="javascript:grin(&#39;:confused:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/confused.png" alt="confused"></a>
+<a href="javascript:grin(&#39;:idea:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/idea.png" alt="idea"></a>
+<a href="javascript:grin(&#39;:lol:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/lol.png" alt="lol"></a>
+<a href="javascript:grin(&#39;:mad:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/mad.png" alt="mad"></a>
+<a href="javascript:grin(&#39;:twisted:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/twisted.png" alt="twisted"></a>
+<a href="javascript:grin(&#39;:rolleyes:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/rolleyes.png" alt="rolleyes"></a>
+<a href="javascript:grin(&#39;:wink:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/wink.png" alt="wink"></a>
+<a href="javascript:grin(&#39;:cool:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/cool.png" alt="cool"></a>
+<a href="javascript:grin(&#39;:arrow:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/arrow.png" alt="arrow"></a>
+<a href="javascript:grin(&#39;:neutral:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/neutral.png" alt="neutral"></a>
+<a href="javascript:grin(&#39;:cry:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/cry.png" alt="cry"></a>
+<a href="javascript:grin(&#39;:mrgreen:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/mrgreen.png" alt="mrgreen"></a>
+<a href="javascript:grin(&#39;:drooling:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/drooling.png" alt="drooling"></a>
+<a href="javascript:grin(&#39;:persevering:&#39;)"><img class="d-block" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/persevering.png" alt="persevering"></a>										</div>
+									</div>
+								</div>
+								<div class="float-right">
+																		<a rel="nofollow" id="cancel-comment-reply-link" href="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#respond" style="display:none;">取消回复</a>									<input name="submit" type="submit" id="submit" class="btn btn-primary" value="提交评论">
+								</div>
+							</div>
+						</div>
+					</div>
+					<input type="hidden" name="comment_post_ID" value="1437" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+										<p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1707991636946"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p>				</form>
+					</div>
+	</div>
+            </div>
+                            <div class="col-lg-4 sidebar sticky-sidebar d-none d-lg-block">
+                    <div class="widget widget_block"><script src="https://qnstatic.aihq.top/appscross/platform.js"></script>
+<div class="g-ytsubscribe" data-channelid="UCbqUc3fOj4oMdf82j5ngXXQ" data-layout="full" data-count="hidden"></div></div><div class="widget w-search"><div class="title">站内搜索</div><div class="item"> <form role="search" method="get" id="searchform" class="searchform" action="https://appscross.com/"> <div class="input-group mt-2 mb-2"> <input type="text" name="s" id="search-widgets" class="form-control" placeholder="搜点什么呢?"> <div class="input-group-append"> <button class="btn btn-primary btn-search" type="submit" id="searchsubmit">搜索</button> </div> </div> </form></div></div><div class="widget widget_block"><a href="https://bit.ly/prd-vpn" target="_blank">
+<img decoding="async" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/mainbanner-600x100-2.png" alt="PrivadoVPN " border="0"></a></div><div class="widget widget_archive"><div class="title">归档</div>
+			<ul>
+					<li><a href="https://appscross.com/2024/02/">2024年2月</a></li>
+	<li><a href="https://appscross.com/2024/01/">2024年1月</a></li>
+	<li><a href="https://appscross.com/2023/12/">2023年12月</a></li>
+	<li><a href="https://appscross.com/2023/11/">2023年11月</a></li>
+	<li><a href="https://appscross.com/2023/10/">2023年10月</a></li>
+	<li><a href="https://appscross.com/2023/09/">2023年9月</a></li>
+	<li><a href="https://appscross.com/2023/08/">2023年8月</a></li>
+	<li><a href="https://appscross.com/2023/07/">2023年7月</a></li>
+	<li><a href="https://appscross.com/2023/06/">2023年6月</a></li>
+			</ul>
+
+			</div><div class="widget w-comments"><div class="title">最近评论</div><div class="comments"><a href="https://appscross.com/2024/02/armbian-mount-multiple-hard-disks/#commentform">
+            <div class="meta clearfix">
+                <div class="avatar float-left"><img alt="" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/83d21576b24adaec0d24aca3d1525d46(2).png" srcset="https://secure.gravatar.com/avatar/83d21576b24adaec0d24aca3d1525d46?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy" decoding="async"></div>
+                <div class="profile d-block">
+                    <span class="date">webmaster 发布于 5 小时前（02月15日）</span>
+                    <span class="message d-block">n年前的柜子只有usb3接口 挂载使用和柜子无关</span>
+                </div>
+            </div>
+        </a><a href="https://appscross.com/2024/02/armbian-mount-multiple-hard-disks/#commentform">
+            <div class="meta clearfix">
+                <div class="avatar float-left"><img alt="" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/d0ae34ba1b2bc489c665ae1f19405fb3.png" srcset="https://secure.gravatar.com/avatar/d0ae34ba1b2bc489c665ae1f19405fb3?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy" decoding="async"></div>
+                <div class="profile d-block">
+                    <span class="date">路过 发布于 18 小时前（02月14日）</span>
+                    <span class="message d-block">博主用哪款硬盘柜？使用感受如何？方便分享一下心得吗？谢谢！</span>
+                </div>
+            </div>
+        </a><a href="https://appscross.com/2023/08/hx3-optical-modem-password/#commentform">
+            <div class="meta clearfix">
+                <div class="avatar float-left"><img alt="" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/62f55fc79f663a5ab33101d69d791f0c.png" srcset="https://secure.gravatar.com/avatar/62f55fc79f663a5ab33101d69d791f0c?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy" decoding="async"></div>
+                <div class="profile d-block">
+                    <span class="date">Icather 发布于 1 天前（02月14日）</span>
+                    <span class="message d-block">牛逼，一遍过</span>
+                </div>
+            </div>
+        </a><a href="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#commentform">
+            <div class="meta clearfix">
+                <div class="avatar float-left"><img alt="" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/83d21576b24adaec0d24aca3d1525d46(2).png" srcset="https://secure.gravatar.com/avatar/83d21576b24adaec0d24aca3d1525d46?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy" decoding="async"></div>
+                <div class="profile d-block">
+                    <span class="date">webmaster 发布于 1 天前（02月14日）</span>
+                    <span class="message d-block">页脚tg x mail...</span>
+                </div>
+            </div>
+        </a><a href="https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/#commentform">
+            <div class="meta clearfix">
+                <div class="avatar float-left"><img alt="" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/62b1d742ff01620a77952dad3a08ad0d(1).png" srcset="https://secure.gravatar.com/avatar/62b1d742ff01620a77952dad3a08ad0d?s=120&amp;d=mm&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy" decoding="async"></div>
+                <div class="profile d-block">
+                    <span class="date">小东 发布于 3 天前（02月12日）</span>
+                    <span class="message d-block">老大你好，怎么联系你，想跟你做朋友</span>
+                </div>
+            </div>
+        </a></div></div><div class="widget widget_block"><a href="https://www.dpbolvw.net/8i115uoxuowBDCDCKEHDCBDGGHEEIG" target="_blank">
+<img decoding="async" src="https://www.tqlkg.com/hg116ltxlrpACBCBJDGCBACFFGDDHF" alt="Hushed - get a second phone number for life" border="0"></a></div>                </div>
+                    </div>
+    </div>
+</div>
+<div class="k-footer">
+    <div class="f-toolbox">
+        <div class="gotop active">
+            <div class="gotop-btn">
+                <span class="kicon i-up"></span>
+            </div>
+        </div>
+                <div class="search">
+            <span class="kicon i-find"></span>
+            <form class="search-form" role="search" method="get" action="https://appscross.com/">
+                <input type="text" name="s" id="search-footer" placeholder="搜点什么呢?" style="display:none">
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="social">
+                    <a target="_blank" rel="nofollow" href="https://space.bilibili.com/1323796788"><i class="kicon i-bilibili"></i></a><a target="_blank" rel="nofollow" href="https://twitter.com/@evan_sglre"><i class="kicon i-twitter"></i></a><a target="_blank" rel="nofollow" href="https://t.me/without_answer"><i class="kicon i-telegram"></i></a><a target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UCbqUc3fOj4oMdf82j5ngXXQ?sub_confirmation=1"><i class="kicon i-youtube"></i></a><a target="_blank" rel="nofollow" href="mailto:contact@appscross.com"><i class="kicon i-email"></i></a>                </p>
+                <p>COPYRIGHT © 2023 Appscross. ALL RIGHTS RESERVED.</p>            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/lightgallery.min.js" id="lightgallery-js"></script>
+<script type="text/javascript" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/bootstrap.bundle.min.js" id="bootstrap-bundle-js"></script>
+<script type="text/javascript" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/layer.min.js" id="layer-js"></script>
+<script type="text/javascript" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/DPlayer.min.js" id="dplayer-js"></script>
+<script type="text/javascript" id="kratos-js-extra">
+/* <![CDATA[ */
+var kratos = {"site":"https:\/\/appscross.com","directory":"https:\/\/appscross.com\/wp-content\/themes\/kratos-4.3.0","alipay":"https:\/\/appscross.com\/wp-content\/themes\/kratos-4.2.1\/assets\/img\/200.png","wechat":"https:\/\/appscross.com\/wp-content\/themes\/kratos-4.2.1\/assets\/img\/200.png","repeat":"\u60a8\u5df2\u7ecf\u8d5e\u8fc7\u4e86","thanks":"\u611f\u8c22\u60a8\u7684\u652f\u6301","donate":"\u6253\u8d4f\u4f5c\u8005","scan":"\u626b\u7801\u652f\u4ed8"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/kratos.js" id="kratos-js"></script>
+<script type="text/javascript" id="comment-js-extra">
+/* <![CDATA[ */
+var ajaxcomment = {"ajax_url":"https:\/\/appscross.com\/wp-admin\/admin-ajax.php","order":"asc","compost":"\u8bc4\u8bba\u6b63\u5728\u63d0\u4ea4\u4e2d","comsucc":"\u8bc4\u8bba\u63d0\u4ea4\u6210\u529f"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/comments.min.js" id="comment-js"></script>
+
+<!-- Site Kit 添加的 Google Analytics 代码段 -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=GT-TBZQN5C" id="google_gtagjs-js" async=""></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["appscross.com"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-TBZQN5C");
+/* ]]> */
+</script>
+
+<!-- 结束 Site Kit 添加的 Google Analytics 代码段 -->
+<script type="text/javascript" src="./每月怒省20刀 人人都可免费本地使用GPTs » 老E的博客_files/enlighterjs.min.js" id="enlighterjs-js"></script>
+<script type="text/javascript" id="enlighterjs-js-after">
+/* <![CDATA[ */
+!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":4,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"scroll","linenumbers":true,"theme":"wpcustom","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+//屏蔽右键菜单
+document.oncontextmenu = function(event) {
+    if (window.event) {
+        event = window.event;
+    }
+    try {
+        var the = event.srcElement;
+        if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) {
+            return false;
+        }
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+//屏蔽粘贴
+document.onpaste = function(event) {
+    if (window.event) {
+        event = window.event;
+    }
+    try {
+        var the = event.srcElement;
+        if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) {
+            return false;
+        }
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+//屏蔽复制
+//屏蔽剪切
+document.oncut = function(event) {
+    if (window.event) {
+        event = window.event;
+    }
+    try {
+        var the = event.srcElement;
+        if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) {
+            return false;
+        }
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+//禁止f12
+function fuckyou() {
+    window.close(); //关闭当前窗口(防抽)
+    window.location = "about:blank"; //将当前窗口跳转置空白页
+}
+function ck() {
+    console.profile();
+    console.profileEnd();
+    //我们判断一下profiles里面有没有东西，如果有，肯定有人按F12了，没错！！
+    if (console.clear) {
+        console.clear()
+    };
+    if (typeof console.profiles == "object") {
+        return console.profiles.length > 0;
+    }
+}
+function hehe() {
+    if ((window.console && (console.firebug || console.table && /firebug/i.test(console.table()))) || (typeof opera == 'object' && typeof opera.postError == 'function' && console.profile.length > 0)) {
+        fuckyou();
+    }
+    if (typeof console.profiles == "object" && console.profiles.length > 0) {
+        fuckyou();
+    }
+}
+hehe();
+window.onresize = function() {
+    if ((window.outerHeight - window.innerHeight) > 200)
+    //判断当前窗口内页高度和窗口高度，如果差值大于200，那么呵呵
+    fuckyou();
+}
+document.onkeydown = function(event) {
+    if ((event.keyCode == 112) || //屏蔽 F1
+    (event.keyCode == 113) || //屏蔽 F2
+    (event.keyCode == 114) || //屏蔽 F3
+    (event.keyCode == 115) || //屏蔽 F4
+    // (event.keyCode == 116) || //屏蔽 F5
+    (event.keyCode == 117) || //屏蔽 F6
+    (event.keyCode == 118) || //屏蔽 F7
+    (event.keyCode == 119) || //屏蔽 F8
+    (event.keyCode == 120) || //屏蔽 F9
+    (event.keyCode == 121) || //屏蔽 F10
+    (event.keyCode == 122) || //屏蔽 F11
+    (event.keyCode == 123)) //屏蔽 F12
+    {
+        return false;
+    }
+}
+window.onhelp = function() {
+    return false;
+} </script>
+
+<script>
+    var xhr = new XMLHttpRequest();
+	xhr.open("POST", 'https://data.zz.baidu.com/urls?site=https://appscross.com&token=eWa7ZJwy3gl9WymE', true);
+	xhr.setRequestHeader("Content-Type", "text/plain");
+	xhr.onreadystatechange = function() {
+    	if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+    	}
+	}
+    var current_url = window.location.href;
+	xhr.send(current_url);
+</script>
+
+
+
+
+
+<bookmark-sidebar-jzylv3dexsl id="redeviation-bs-sidebar" class="notranslate" aria-hidden="true" data-theme="default" data-pos="right"><template shadowrootmode="closed"><iframe style="margin:0;padding: 0;border: none;width: 100%;height: 100%;"></iframe></template></bookmark-sidebar-jzylv3dexsl><div id="redeviation-bs-indicator" data-theme="default" class="redeviation-bs-fullHeight" style="height: 100%; top: 0%;"></div></body></html>
